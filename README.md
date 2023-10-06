@@ -11,7 +11,7 @@ In total 9730 frames are recorded.
     ├── image
     ├── label
     ├── tracking
-    └── velodyne
+    └── radar
 ```
 
 *calib* contains the intrinsic calibration results of the IR camera and the extrinsic transformation between the camera and the radar.
