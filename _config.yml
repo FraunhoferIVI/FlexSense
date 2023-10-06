@@ -3,3 +3,4 @@ plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 title: FlexSense System and Dataset
 description: A dataset for development of algorithms for traffic analysis from road-side sensor setups with thermal camera and 4D imaging radar.
+google_analytics:
