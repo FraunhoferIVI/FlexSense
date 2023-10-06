@@ -4,4 +4,5 @@ plugins:
 title: FlexSense Infrastructure Sensor Dataset
 description: A dataset for development of algorithms for traffic analysis from road-side sensor setups with thermal camera and 4D imaging radar.
 google_analytics:
-is_project_page: False 
+github:
+  is_project_page: false 
