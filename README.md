@@ -1,7 +1,9 @@
 The dataset consists of 29 recorded sequences using an infrared camera and a 3D radar sensor. 
 The sensors work at 20Hz. 
 In total 9730 frames are recorded.
-24998 3D bounding boxes are provided.
+24998 3D bounding boxes are provided. 
+Example:
+![example image](https://github.com/FraunhoferIVI/FlexSense/blob/main/assets/css/example.gif)
 
 ### Content of Dataset
 
