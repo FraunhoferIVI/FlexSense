@@ -3,7 +3,7 @@ The sensors work at 20Hz.
 In total 9730 frames are recorded.
 24998 3D bounding boxes are provided. 
 Example:
-![example image]([https://github.com/FraunhoferIVI/FlexSense/blob/main/assets/dataset.gif](https://github.com/FraunhoferIVI/FlexSense/blob/904cdf3e1018770963a4b684a091b132bf66d27e/assets/dataset.gif))
+![example image](assets/dataset.gif)
 
 ## Download
 Please download the data here: [https://dx.doi.org/10.24406/fordatis/284](https://dx.doi.org/10.24406/fordatis/284)  (coming soon)
