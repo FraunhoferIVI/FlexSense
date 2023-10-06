@@ -24,7 +24,7 @@ Images are stored in the *image* folder.
 
 The bin files in folder *radar* contain the point cloud from the Continental ARS548 imaging radar. 
 
-The labeling is done using the 3D-BAT tool (https://github.com/walzimmer/bat-3d). In the labeling process, we tried our best to place the bounding box to match object extend in both 2D image plane and 3D point cloud world. If some of the 3D points don't perfectly fall into the bounding box, due to the sparsity of the point cloud, we have to consider them to be outlier. 
+The labeling is done using the [3D-BAT tool](https://github.com/walzimmer/bat-3d). In the labeling process, we tried our best to place the bounding box to match object extend in both 2D image plane and 3D point cloud world. If some of the 3D points don't perfectly fall into the bounding box, due to the sparsity of the point cloud, we have to consider them to be outlier. 
 
 
 ### Data Split
