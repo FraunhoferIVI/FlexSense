@@ -24,7 +24,7 @@ Images are stored in the *image* folder.
 
 The bin files in folder *radar* contain the point cloud from the Continental ARS548 imaging radar. 
 
-In the labeling process, we tried our best to place the bounding box to match object extend in both 2D image plane and 3D point cloud world. If some of the 3D points don't perfectly fall into the bounding box, due to the sparsity of the point cloud, we have to consider them to be outlier. 
+The labeling is done using the 3D-BAT tool (https://github.com/walzimmer/bat-3d). In the labeling process, we tried our best to place the bounding box to match object extend in both 2D image plane and 3D point cloud world. If some of the 3D points don't perfectly fall into the bounding box, due to the sparsity of the point cloud, we have to consider them to be outlier. 
 
 
 ### Data Split
@@ -66,6 +66,7 @@ Training set 6937 frames, Validation set 2793 frames.
 
 
 ### Detection Labels (kitti)
+
 |Values  |  Name     | Description|
 |-|-|-|
 |   1   | type   |      Describes the type of object: 'Car', 'Van', 'Truck','Pedestrian', 'Person_sitting', 'Cyclist', 'Tram','Misc' or 'DontCare'|
@@ -76,9 +77,10 @@ Training set 6937 frames, Validation set 2793 frames.
 |   3   | dimensions |  3D object dimensions: height, width, length (in meters)|
 |   3  |  location |    3D object location x,y,z in camera coordinates (in meters)|
 |   1   | rotation_y |  Rotation ry around Y-axis in camera coordinates [-pi..pi]|
-  | (1)   | score  |      Only for results: Float, indicating confidence in detection, needed for p/r curves, higher is better.|
+| (1)   | score  |      Only for results: Float, indicating confidence in detection, needed for p/r curves, higher is better.|
   
 ### Tracking Labels (kitti)
+
 |Values |   Name   |   Description|
 |-|-|-|
 |   1   | frame    |    Frame within the sequence where the object appearers|
