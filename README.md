@@ -7,7 +7,7 @@ Example:
 ![example image](assets/dataset.gif)
 
 ## Download
-Please download the data here: [https://dx.doi.org/10.24406/fordatis/284](https://dx.doi.org/10.24406/fordatis/284)  (coming soon)
+Please download the data here: [https://fordatis.fraunhofer.de/handle/fordatis/344](https://fordatis.fraunhofer.de/handle/fordatis/344)
 
 ### Content of Dataset
 
