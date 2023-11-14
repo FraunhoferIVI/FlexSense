@@ -100,3 +100,5 @@ Training set 6937 frames, Validation set 2793 frames.
 |   3   | location   |  3D object location x,y,z in camera coordinates (in meters)|
 |   1   | rotation_y |  Rotation ry around Y-axis in camera coordinates [-pi..pi]|
 |   (1)   | score     |   Only for results: Float, indicating confidence in detection, needed for p/r curves, higher is better.|
+
+![](https://komarev.com/ghpvc/?username=FlexSense)
