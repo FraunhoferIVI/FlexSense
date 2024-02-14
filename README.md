@@ -1,7 +1,7 @@
 Dataset with the paper: [FlexSense: Flexible Infrastructure Sensors for Traffic Perception](https://ieeexplore.ieee.org/document/10422616). 
 Please refer to the paper for more information.
-If you find this dataset relevant for your work, please consider citing our paper: 
-
+If you find this dataset or the paper relevant for your work, please consider citing our paper: 
+```
 @INPROCEEDINGS{10422616,
   author={Han, Longfei and Kefferpütz, Klaus and Elger, Gordon and Beyerer, Jürgen},
   booktitle={2023 IEEE 26th International Conference on Intelligent Transportation Systems (ITSC)}, 
@@ -12,7 +12,7 @@ If you find this dataset relevant for your work, please consider citing our pape
   pages={3810-3816},
   keywords={Point cloud compression;Three-dimensional displays;Roads;Radar tracking;Robot sensing systems;Sensor systems;Software},
   doi={10.1109/ITSC57777.2023.10422616}}
-
+```
 
 The dataset consists of 29 recorded sequences using an infrared camera and a 3D radar sensor. 
 The sensors work at 20Hz. 
